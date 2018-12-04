@@ -150,6 +150,7 @@
       z-index: 2;
       background: #fff;
       margin-top: -.01333rem;
+      width 100%
       .tabAlter {
         width 100%
         display block
