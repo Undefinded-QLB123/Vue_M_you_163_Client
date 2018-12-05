@@ -3,11 +3,13 @@ import {
   CHANGE_HEADER_TAB,
   CHANGE_TYPES_TAB,
   CHANGE_MYLIST_TAB,
-  RECEIVE_KINGKONGMODULE
+  RECEIVE_KINGKONGMODULE,
+  RECEIVE_CATEGORY
 } from "./mutations-type";
 
 import {
-  reqmsite
+  reqmsite,
+  reqcategory
 } from '../api'
 
 export default {
@@ -28,6 +30,14 @@ export default {
     if (result.code===0) {
       const kingKongModule = result;
       commit(RECEIVE_KINGKONGMODULE, [kingKongModule]);
+      typeof callback === 'function' && callback()
+    }
+  },
+  async getcategory({commit}, callback) {
+    const result = await reqcategory();
+    if (result.code === 0) {
+      const category = result;
+      commit(RECEIVE_CATEGORY, [category]);
       typeof callback === 'function' && callback()
     }
   },

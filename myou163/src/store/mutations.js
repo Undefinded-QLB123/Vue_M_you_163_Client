@@ -3,7 +3,8 @@ import {
   CHANGE_HEADER_TAB,
   CHANGE_TYPES_TAB,
   CHANGE_MYLIST_TAB,
-  RECEIVE_KINGKONGMODULE
+  RECEIVE_KINGKONGMODULE,
+  RECEIVE_CATEGORY
 } from './mutations-type'
 export default {
   [CHANGE_ACTIVE](state, id) {
@@ -32,5 +33,8 @@ export default {
   },
   [RECEIVE_KINGKONGMODULE](state,[kingKongModule]){
     state.kingKongModule= kingKongModule
+  },
+  [RECEIVE_CATEGORY](state,[category]){
+    state.category = category
   }
 }

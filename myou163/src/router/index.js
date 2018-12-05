@@ -17,6 +17,8 @@ import Cook from "../pages/Msite/Cook/Cook";
 import Baby from "../pages/Msite/Baby/Baby";
 import Hobby from "../pages/Msite/Hobby/Hobby";
 import Features from "../pages/Msite/Features/Features";
+import ClassifyCateList from '../components/ClassifyCateList/ClassifyCateList'
+import ClassifyList from '../components/ClassifyList/ClassifyList'
 
 
 Vue.use(VueRouter);
@@ -79,7 +81,69 @@ export default new VueRouter({
     },
     {
       path: '/classify',
-      component: Classify
+      component: Classify,
+      children: [
+        {
+          path: '/classify/109230000',
+          component: ClassifyList
+        },
+        {
+          path: '/classify/109224000',
+          component: ClassifyList
+        },
+        {
+          path: '/classify/1087004',
+          component: ClassifyList
+        },
+        {
+          path: '/classify/109217021',
+          component: ClassifyList
+        },
+        {
+          path: '/classify/1005000',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1008000',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1010000',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1043000',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1013001',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1005002',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1005001',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1011000',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1019000',
+          component: ClassifyCateList
+        },
+        {
+          path: '/classify/1065000',
+          component: ClassifyCateList
+        },
+        {
+          path: '',
+          redirect: '/classify/109230000'
+        }
+      ]
     },
     {
       path: '/distinguish',

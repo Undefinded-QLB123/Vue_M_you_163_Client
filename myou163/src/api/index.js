@@ -4,3 +4,4 @@
 import ajax from './ajax'
 
 export const reqmsite = () => ajax('/msite');
+export const reqcategory =() => ajax('/classify');

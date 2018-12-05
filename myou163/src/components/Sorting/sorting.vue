@@ -37,7 +37,6 @@
       ...mapState(['kingKongModule']),
       getkingKongModuleArr() {
         const {kingKongModule} = this;
-        console.log(kingKongModule);
         const bigArr = [];
         let smallArr = [];
         const msite = kingKongModule.msite;

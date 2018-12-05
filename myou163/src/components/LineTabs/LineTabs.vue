@@ -4,7 +4,7 @@
       <div class="list">
         <div class="list-container">
           <div class="tab" v-for="(item,index) in headertabList" :key="index" :class="{active: item.isActive}">
-            <router-link :to="`/msite` + item.linkTo">
+            <router-link :to="`${$route.path.split('/')[1]==='msite'?'/msite':'/classify'}`+ `` ">
               <span class="txt" @click="active(item.id)">{{item.name}}</span>
             </router-link>
           </div>
@@ -20,11 +20,12 @@
       headertabList:Array,
     },
     data() {
-      return {}
+      return {
+      }
     },
     methods: {
       active(id) {
-        if (this.$route.path.indexOf('classify') >= 0) {
+        if (this.$route.path.indexOf('Typesab') >= 0) {
           this.$store.dispatch('changeTypesabActive', id);
           return false
         }
@@ -118,7 +119,7 @@
     -ms-flex-negative: 0;
     flex-shrink: 0;
     position: relative;
-    margin-left: .34rem;
+    margin-left: .54rem;
   }
 
   .tab.active {
@@ -132,7 +133,7 @@
 
   .tab .txt {
     display: inline-block;
-    padding: 0 .21333rem;
+    /*padding: 0 .21333rem;*/
     line-height: .8rem;
     font-size: .37333rem;
     color: #333;

@@ -98,6 +98,15 @@
     background: #fff;
     margin-top: -.01333rem;
   }
+
+
+   header >>>.inner .list-container .tab {
+    margin-left: .90rem;
+  }
+
+  header >>>.inner .tab:first-of-type {
+    margin-left: 0rem;
+  }
   .Toolbox{
     position relative
     top -0.84rem
@@ -209,4 +218,6 @@
     right: 0;
     bottom: 0;
   }
+
+
 </style>

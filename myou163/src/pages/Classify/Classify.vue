@@ -4,7 +4,8 @@
       <Search></Search>
     </div>
     <div class="type-content">
-      <line-tabs :headertabList="headertabList" class="type-tabs"></line-tabs>
+      <line-tabs :headertabList="category.category" class="type-tabs"></line-tabs>
+      <router-view></router-view>
     </div>
   </div>
 </template>
@@ -18,16 +19,14 @@
   export default {
     name: "Classify",
     mounted(){
-      this.$nextTick(() => {
-        this.$el.querySelectorAll('.txt')[2].style.padding = 0;
-      })
+      this.$store.dispatch('getcategory')
     },
     components:{
       Search,
       LineTabs
     },
     computed: {
-      ...mapState(['headertabList'])
+      ...mapState(['category'])
     }
   }
 </script>
@@ -95,8 +94,11 @@
       margin-top: .53333rem;
     }
 
+    header >>> .tab:first-of-type {
+      margin-left: 0.54rem;
+    }
 
-    >>> header.type-tabs .tab:first-of-type {
+    >>> header.type-tabs .active {
       margin-left: .64rem;
     }
   }
