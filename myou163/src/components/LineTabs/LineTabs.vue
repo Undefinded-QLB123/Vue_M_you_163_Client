@@ -24,7 +24,7 @@
     },
     methods: {
       active(id) {
-        if (this.$route.path.indexOf('type') >= 0) {
+        if (this.$route.path.indexOf('classify') >= 0) {
           this.$store.dispatch('changeTypesabActive', id);
           return false
         }

@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6bb119-bd5d-45b6-8f3c-48f897511979" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/components/FooterGuide/FooterGuide.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/components/FooterGuide/FooterGuide.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/components/LineTabs/LineTabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/components/LineTabs/LineTabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/components/Search/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/components/Search/Search.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myou163/src/components/TopHeader/TopHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/components/TopHeader/TopHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/pages/Classify/Classify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/pages/Classify/Classify.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/pages/Msite/Recommend/Recommend.vue" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/pages/Msite/Recommend/Recommend.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/store/mutations-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/store/mutations-type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/store/mutations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myou163/src/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/myou163/src/store/state.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,34 +27,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myou163/src/store/state.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myou163/src/pages/Classify/Classify.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="49" column="61" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="61" />
+            <state relative-caret-position="360">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
-                <element signature="e#29#846#0" />
-                <element signature="e#1483#2127#0" />
-                <element signature="e#2139#2417#0" />
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#145#196#0" expanded="true" />
+                <element signature="e#525#539#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myou163/src/components/TopHeader/TopHeader.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
-              <folding>
-                <element signature="n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
-                <element signature="e#296#347#0" expanded="true" />
-                <element signature="e#863#1155#0" />
-                <element signature="e#1170#1466#0" />
-                <element signature="e#1495#1735#0" />
-                <element signature="e#2515#3262#0" />
-              </folding>
+            <state relative-caret-position="744">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -49,35 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myou163/src/components/LineTabs/LineTabs.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="70" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myou163/src/pages/Msite/Msite.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myou163/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myou163/src/components/FooterGuide/FooterGuide.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2952">
-              <caret line="135" column="3" lean-forward="true" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="3" />
+            <state relative-caret-position="432">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -93,6 +71,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>length</find>
+      <find>getkingKongModule</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -100,7 +84,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/myou163/src/pages/Distinguish.vue" />
-        <option value="$PROJECT_DIR$/myou163/src/pages/Classify/Classify.vue" />
         <option value="$PROJECT_DIR$/myou163/src/pages/Distinguish/Distinguish.vue" />
         <option value="$PROJECT_DIR$/myou163/src/pages/Profile/Profile.vue" />
         <option value="$PROJECT_DIR$/myou163/src/pages/ShoppingCart/ShoppingCart.vue" />
@@ -109,11 +92,6 @@
         <option value="$PROJECT_DIR$/myou163/src/store/getter.js" />
         <option value="$PROJECT_DIR$/myou163/src/store/getters.js" />
         <option value="$PROJECT_DIR$/myou163/src/store/index.js" />
-        <option value="$PROJECT_DIR$/myou163/src/main.js" />
-        <option value="$PROJECT_DIR$/myou163/src/components/FooterGuide/FooterGuide.vue" />
-        <option value="$PROJECT_DIR$/myou163/src/components/Search/Search.vue" />
-        <option value="$PROJECT_DIR$/myou163/src/store/state.js" />
-        <option value="$PROJECT_DIR$/myou163/src/pages/Msite/Recommend/Recommend.vue" />
         <option value="$PROJECT_DIR$/myou163/src/pages/Msite/Home.vue" />
         <option value="$PROJECT_DIR$/myou163/src/pages/Msite/Home/home.vue" />
         <option value="$PROJECT_DIR$/myou163/src/pages/Msite/ACC.vue" />
@@ -128,18 +106,29 @@
         <option value="$PROJECT_DIR$/myou163/src/pages/Msite/Features/Features.vue" />
         <option value="$PROJECT_DIR$/myou163/src/router/index.js" />
         <option value="$PROJECT_DIR$/myou163/src/pages/Msite/Msite.vue" />
-        <option value="$PROJECT_DIR$/myou163/src/store/actions.js" />
-        <option value="$PROJECT_DIR$/myou163/src/store/mutations-type.js" />
-        <option value="$PROJECT_DIR$/myou163/src/store/mutations.js" />
-        <option value="$PROJECT_DIR$/myou163/src/components/LineTabs/LineTabs.vue" />
         <option value="$PROJECT_DIR$/myou163/index.html" />
+        <option value="$PROJECT_DIR$/myou163/src/components/FooterGuide/FooterGuide.vue" />
         <option value="$PROJECT_DIR$/myou163/src/components/TopHeader/TopHeader.vue" />
+        <option value="$PROJECT_DIR$/myou163/src/components/Search/Search.vue" />
+        <option value="$PROJECT_DIR$/myou163/src/main.js" />
+        <option value="$PROJECT_DIR$/myou163/src/mock/msite.json" />
+        <option value="$PROJECT_DIR$/myou163/src/store/state.js" />
+        <option value="$PROJECT_DIR$/myou163/src/store/mutations-type.js" />
+        <option value="$PROJECT_DIR$/myou163/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/myou163/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/myou163/src/api/index.js" />
+        <option value="$PROJECT_DIR$/myou163/src/mock/mockServer.js" />
+        <option value="$PROJECT_DIR$/myou163/src/components/WarmPrompt/WarmPrompt.vue" />
+        <option value="$PROJECT_DIR$/myou163/src/pages/Msite/Recommend/Recommend.vue" />
+        <option value="$PROJECT_DIR$/myou163/src/components/Swiper/Swiper.vue" />
+        <option value="$PROJECT_DIR$/myou163/src/components/Sorting/sorting.vue" />
+        <option value="$PROJECT_DIR$/myou163/src/components/LineTabs/LineTabs.vue" />
+        <option value="$PROJECT_DIR$/myou163/src/pages/Classify/Classify.vue" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="328" />
-    <option name="y" value="18" />
+    <option name="x" value="205" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
@@ -149,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,13 +176,20 @@
               <item name="m_you_163" type="462c0819:PsiDirectoryNode" />
               <item name="myou163" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Msite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="m_you_163" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m_you_163" type="462c0819:PsiDirectoryNode" />
+              <item name="myou163" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,13 +201,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\前端基础\练习\张晓飞Vue\Vue网易严选项目\m_you_163\myou163\src\api" />
+      <recent name="E:\前端基础\练习\张晓飞Vue\Vue网易严选项目\m_you_163\myou163\src\mock" />
+      <recent name="E:\前端基础\练习\张晓飞Vue\Vue网易严选项目\m_you_163\myou163\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\前端基础\练习\张晓飞Vue\Vue网易严选项目\m_you_163\myou163\src\api" />
       <recent name="E:\前端基础\练习\张晓飞Vue\Vue网易严选项目\m_you_163\myou163\src\pages\Msite\Features" />
       <recent name="E:\前端基础\练习\张晓飞Vue\Vue网易严选项目\m_you_163\myou163\src\pages\Msite\Cloth" />
       <recent name="E:\前端基础\练习\张晓飞Vue\Vue网易严选项目\m_you_163\myou163\src\pages\Msite\ACC" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\前端基础\练习\张晓飞Vue\Vue网易严选项目\m_you_163\myou163\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,29 +235,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543884883377</updated>
-      <workItem from="1543884884675" duration="23287000" />
+      <workItem from="1543884884675" duration="30024000" />
+      <workItem from="1543921907052" duration="24136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23287000" />
+    <option name="totallyTimeSpent" value="54160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" weight="0.32980332" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32899022" />
-      <window_info anchor="bottom" id="调试" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="right" id="Translate" weight="0.32980332" />
-      <window_info anchor="right" id="Mongo Explorer" weight="0.32980332" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.20499243" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="调试" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32899022" />
+      <window_info anchor="right" id="Translate" order="0" weight="0.32980332" />
+      <window_info anchor="right" id="Mongo Explorer" order="1" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,35 +271,11 @@
         <state relative-caret-position="-131" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Distinguish.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Distinguish.vue" />
     <entry file="file://$PROJECT_DIR$/myou163/src/pages/Profile/Profile.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Classify/Classify.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -315,41 +293,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/components/FooterGuide/FooterGuide.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2952">
-          <caret line="135" column="3" lean-forward="true" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/components/Search/Search.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Msite/Recommend/Recommend.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Msite/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Msite/Home.vue" />
     <entry file="file://$PROJECT_DIR$/myou163/src/pages/Msite/Home/home.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -430,10 +374,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/store/getters.js">
+    <entry file="file://$PROJECT_DIR$/myou163/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/components/Search/Search.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/components/FooterGuide/FooterGuide.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3144">
+          <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="16" />
+          <folding>
+            <element signature="e#29#846#0" />
+            <element signature="e#865#1537#0" />
+            <element signature="e#1552#2196#0" />
+            <element signature="e#2208#2486#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/store/mutations-type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/mock/msite.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="8375" selection-start-line="8375" selection-end-line="8375" />
+          <folding>
+            <element signature="e#20#64113#0" />
+            <element signature="e#64129#175732#0" />
+            <element signature="n#!!block;n#flashSaleIndexVO#0;n#!!top" />
+            <element signature="e#176219#187241#0" />
+            <element signature="e#187285#202700#0" />
+            <element signature="e#202726#218141#0" />
+            <element signature="e#218167#233582#0" />
+            <element signature="e#233604#234085#0" />
+            <element signature="e#234108#248247#0" />
+            <element signature="e#248277#257605#0" />
+            <element signature="e#257635#266963#0" />
+            <element signature="e#266979#297357#0" />
+            <element signature="e#297374#299540#0" />
+            <element signature="e#299568#299676#0" />
+            <element signature="e#299682#299792#0" />
+            <element signature="e#299798#299906#0" />
+            <element signature="e#299912#300020#0" />
+            <element signature="e#300026#300134#0" />
+            <element signature="e#300140#300248#0" />
+            <element signature="e#300254#300362#0" />
+            <element signature="e#300368#300476#0" />
+            <element signature="e#300482#300590#0" />
+            <element signature="e#300596#300706#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -447,74 +488,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/store/mutations-type.js">
+    <entry file="file://$PROJECT_DIR$/myou163/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/components/WarmPrompt/WarmPrompt.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="35" column="29" selection-start-line="34" selection-end-line="37" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/mock/mockServer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Msite/Recommend/Recommend.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#135#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/components/Swiper/Swiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="e#581#1947#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/components/Sorting/sorting.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#471#510#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myou163/src/store/mutations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="480">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myou163/src/store/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Msite/Msite.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myou163/src/store/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="49" column="61" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="61" />
-          <folding>
-            <element signature="e#29#846#0" />
-            <element signature="e#1483#2127#0" />
-            <element signature="e#2139#2417#0" />
-          </folding>
+        <state relative-caret-position="191">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myou163/src/components/LineTabs/LineTabs.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="70" />
+        <state relative-caret-position="432">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myou163/src/components/TopHeader/TopHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
+        <state relative-caret-position="744">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Msite/Msite.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myou163/src/pages/Classify/Classify.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
-            <element signature="n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#296#347#0" expanded="true" />
-            <element signature="e#863#1155#0" />
-            <element signature="e#1170#1466#0" />
-            <element signature="e#1495#1735#0" />
-            <element signature="e#2515#3262#0" />
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#145#196#0" expanded="true" />
+            <element signature="e#525#539#0" />
           </folding>
         </state>
       </provider>

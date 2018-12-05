@@ -2,7 +2,8 @@ import {
   CHANGE_ACTIVE,
   CHANGE_HEADER_TAB,
   CHANGE_TYPES_TAB,
-  CHANGE_MYLIST_TAB
+  CHANGE_MYLIST_TAB,
+  RECEIVE_KINGKONGMODULE
 } from './mutations-type'
 export default {
   [CHANGE_ACTIVE](state, id) {
@@ -28,5 +29,8 @@ export default {
       list.isActive = false
     })
     state.mylist[id].isActive = true
+  },
+  [RECEIVE_KINGKONGMODULE](state,[kingKongModule]){
+    state.kingKongModule= kingKongModule
   }
 }

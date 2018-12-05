@@ -66,5 +66,6 @@ export default {
     {id: 1, name: '待付款', isActive: false, linkTo: '/mylist/notpay'},
     {id: 2, name: '待发货', isActive: false, linkTo: '/mylist/notsend'},
     {id: 3, name: '已发货', isActive: false, linkTo: '/mylist/allsend'}
-  ]
+  ],
+  kingKongModule:[]
 }

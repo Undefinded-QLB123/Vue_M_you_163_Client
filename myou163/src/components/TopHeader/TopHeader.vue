@@ -7,13 +7,13 @@
     </div>
     <line-tabs :headertabList="headertabList" class="lineTabs"></line-tabs>
     <div class="Toolbox">
-      <div class="toggleWrap">
+      <div class="toggleWrap" @click="toggleActive">
         <div class="linear"></div>
         <div class="toggle">
-          <div class="icon"></div>
+          <div class="icon" :class="{toggleActive:isShow}"></div>
         </div>
       </div>
-      <div class="tabWrap">
+      <div class="tabWrap" v-show="isShow">
         <div class="tabAlter">全部频道</div>
         <div class="moreCate">
           <div class="cateTag" v-for="(item,index) in headertabList" :key="index"
@@ -22,6 +22,7 @@
         </div>
       </div>
     </div>
+    <div class="mask" v-show="isShow"></div>
   </div>
 </template>
 
@@ -31,13 +32,24 @@
   import {mapState} from 'vuex'
   export default {
     name: "TopHeader",
-    components:{
-      Search,
-      LineTabs
+    data(){
+      return{
+        isShow:false
+      }
+    },
+    methods:{
+      toggleActive(){
+        this.isShow=!this.isShow
+      }
     },
     computed:{
       ...mapState(['headertabList'])
-    }
+    },
+    components: {
+      Search,
+      LineTabs
+    },
+
   }
 </script>
 
@@ -141,6 +153,9 @@
           transition: -webkit-transform .5s;
           transition: transform .5s;
           transition: transform .5s, -webkit-transform .5s;
+          &.toggleActive{
+            transform: rotate(180deg);
+          }
         }
       }
     }
@@ -163,11 +178,35 @@
       }
       .moreCate{
         position relative
-        top 0
+        top 0.45rem
         width 100%
+        .cateTag{
+          width: 2rem;
+          height: .74667rem;
+          line-height: .74667rem;
+          text-align: center;
+          float: left;
+          margin-bottom: .53333rem;
+          margin-left: .4rem;
+          background: #FAFAFA;
+          border: 1px solid #CCC;
+          border-radius: .05333rem;
+          &.cateTag-active{
+            border: 1px solid #b4282d;
+            color: #b4282d;
+          }
+        }
       }
     }
-
   }
 
+  .mask {
+    position: fixed;
+    z-index: 10;
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 </style>

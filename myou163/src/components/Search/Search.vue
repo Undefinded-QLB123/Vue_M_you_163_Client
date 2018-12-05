@@ -1,5 +1,5 @@
 <template>
-  <router-link to="/" class="m-topSearchIpt ipt">
+  <router-link to="/search" class="m-topSearchIpt ipt">
     <i class="icon"></i>
     <span class="placeholder">
             <span>商品搜索, 共</span> <span>19913</span> <span>款好物</span>

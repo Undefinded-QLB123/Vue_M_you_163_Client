@@ -123,6 +123,7 @@
     height: 1.30667rem;
     background-color: #fafafa;
     border-top: 1px solid #d9d9d9;
+    z-index: 1;
   }
 
   .m-tabBar > .item .txt {
