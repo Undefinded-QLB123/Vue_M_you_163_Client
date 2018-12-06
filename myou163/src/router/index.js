@@ -19,15 +19,17 @@ import Hobby from "../pages/Msite/Hobby/Hobby";
 import Features from "../pages/Msite/Features/Features";
 import ClassifyCateList from '../components/ClassifyCateList/ClassifyCateList'
 import ClassifyList from '../components/ClassifyList/ClassifyList'
+import Login from '../pages/Login/Login'
 
 
 Vue.use(VueRouter);
 
-export default new VueRouter({
+const router = new VueRouter({
+  mode: 'history',
   routes: [
     {
-      path:'/msite',
-      component:Msite,
+      path: '/msite',
+      component: Msite,
       children: [
         {
           path: '/msite/recommend',
@@ -155,11 +157,30 @@ export default new VueRouter({
     },
     {
       path: '/profile',
-      component: Profile
+      component: Profile,
     },
     {
-      path:'/',
-      redirect:'/msite'
+      path: '/login',
+      component: Login,
+    },
+    {
+      path: '/',
+      redirect: '/msite'
     }
   ]
-})
+});
+//注册全局守卫
+const pathes = ['/profile'];
+
+router.beforeEach((to, from, next) => {
+  if (pathes.indexOf(to.path)>=0) {
+    if (Vue.store.state.user.length>0) {
+      next()
+    } else {
+      next({path: '/login'});
+    }
+  } else {
+    next()
+  }
+});
+export default router

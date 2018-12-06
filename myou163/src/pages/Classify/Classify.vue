@@ -4,29 +4,67 @@
       <Search></Search>
     </div>
     <div class="type-content">
-      <line-tabs :headertabList="category.category" class="type-tabs"></line-tabs>
-      <router-view></router-view>
+      <header>
+        <div class="inner">
+          <div class="list">
+            <div class="list-container">
+              <div class="tab" v-for="(item,index) in category.category" :key="index" :class="{active:index===isActive}" @click="changeActive(index)">
+                <router-link :to="/classify/+`${item.id}`">
+                  <span class="txt">{{item.name}}</span>
+                </router-link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <router-view v-if="isRouterAlive" :key="key"></router-view>
     </div>
   </div>
 </template>
 
 <script>
   import Search from '../../components/Search/Search'
-  import LineTabs from '../../components/LineTabs/LineTabs'
+  import BScroll from 'better-scroll'
 
   import {mapState} from 'vuex'
 
   export default {
     name: "Classify",
+    data(){
+      return{
+        isActive:0,
+        isRouterAlive:true
+      }
+    },
     mounted(){
-      this.$store.dispatch('getcategory')
+      this.$store.dispatch('getcategory',()=>{
+        this.$nextTick(()=>{
+          this._initScroll()
+        })
+      })
     },
     components:{
       Search,
-      LineTabs
     },
     computed: {
-      ...mapState(['category'])
+      ...mapState(['category']),
+      key() {
+        return this.$route.name !== undefined ? this.$route.name + new Date() : this.$route + new Date()
+      }
+    },
+    methods:{
+      _initScroll(){
+        new BScroll('.inner',{
+          click: true
+        })
+      },
+      changeActive(index){
+        this.isActive = index;
+        this.isRouterAlive=false;
+        this.$nextTick(()=>{
+          this.isRouterAlive=true
+        })
+      }
     }
   }
 </script>
@@ -48,58 +86,74 @@
   }
   .type-content {
     width: 100%;
+    overflow: hidden;
     display: flex;
-
-    header.type-tabs {
-      width: 2.16rem;
+    font-size .37333rem
+    header {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+      -moz-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      background-color: #fff;
+      width: 3.16rem;
       height: 15.3rem;
       border-right: 1px solid #d9d9d9;
-    }
+      position: relative;
 
-    .type-tabs >>>.list-container {
-      display: block;
-      z-index: 10000;
-      padding: 0;
-    }
+      .inner {
+        display: block;
+        width 100%
+      }
+      .inner .list {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
 
-
-    >>>.type-tabs >>>.list {
-      overflow: scroll;
-    }
-
-    .type-tabs >>>.inner {
-      display: block;
-    }
-
-
-    >>>header.type-tabs::after {
-      display: none;
-    }
-
-    header.type-tabs >>>.tab.active .txt:after {
-      content: ' ';
-      position: absolute;
-      left: -.64rem;
-      bottom: 0;
-      height: 100%;
-      width: .05333rem;
-      background-color: #b4282d;
-    }
-
-    header.type-tabs >>>.tab {
-    }
-
-    header.type-tabs >>> .tab {
-      justify-content: flex-start;
-      margin-top: .53333rem;
-    }
-
-    header >>> .tab:first-of-type {
-      margin-left: 0.54rem;
-    }
-
-    >>> header.type-tabs .active {
-      margin-left: .64rem;
+      .list-container {
+        width 100%
+        display: block;
+        z-index: 10000;
+        padding: 0;
+        .tab {
+          width: 100%;
+          height: .66667rem;
+          text-align: center;
+          margin-top: .53333rem
+          border: none;
+          .txt{
+            display: block;
+            color: #333;
+            font-size: .37333rem;
+            line-height: .66667rem;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+        }
+        .tab.active {
+          margin .53333rem auto
+          .txt{
+            color: #ab2b2b
+            font-size 0.45rem
+            position relative
+          }
+        }
+        .tab.active .txt:before {
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          width: .08rem;
+          background-color: #ab2b2b;
+        }
+      }
     }
   }
 

@@ -16,13 +16,13 @@ export default {
   [CHANGE_HEADER_TAB](state, id) {
     state.headertabList.forEach(list => {
       list.isActive = false
-    })
-    state.headertabList[id].isActive = true
+    });
+   state.headertabList[id].isActive = true
   },
   [CHANGE_TYPES_TAB](state, id) {
     state.typesTabs.forEach(list => {
       list.isActive = false
-    })
+    });
     state.typesTabs[id].isActive = true
   },
   [CHANGE_MYLIST_TAB](state, id) {

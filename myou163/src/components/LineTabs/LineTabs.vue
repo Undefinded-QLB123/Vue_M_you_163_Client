@@ -4,8 +4,8 @@
       <div class="list">
         <div class="list-container">
           <div class="tab" v-for="(item,index) in headertabList" :key="index" :class="{active: item.isActive}">
-            <router-link :to="`${$route.path.split('/')[1]==='msite'?'/msite':'/classify'}`+ `` ">
-              <span class="txt" @click="active(item.id)">{{item.name}}</span>
+            <router-link :to="`${$route.path.split('/')[1]==='msite'?'/msite':'/classify'}`+ `${$route.path.split('/')[1]==='msite'?item.linkTo:'/'+item.id}` ">
+              <span class="txt" @click="active(`${$route.path.split('/')[1]==='msite'?item.id:item.showIndex }`,item)">{{item.name}}</span>
             </router-link>
           </div>
         </div>
@@ -26,7 +26,7 @@
     methods: {
       active(id) {
         if (this.$route.path.indexOf('Typesab') >= 0) {
-          this.$store.dispatch('changeTypesabActive', id);
+          this.$store.dispatch('changeTypesabActive',id);
           return false
         }
         if (this.$route.path.indexOf('mylist') >= 0) {

@@ -68,5 +68,7 @@ export default {
     {id: 3, name: '已发货', isActive: false, linkTo: '/mylist/allsend'}
   ],
   kingKongModule:[],
-  category:[]
+  category:[],
+  cartGoods:[],
+  user:[]
 }

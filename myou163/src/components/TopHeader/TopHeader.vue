@@ -176,7 +176,6 @@
       margin-top: -.01333rem;
       width 100%
       .tabAlter {
-        width 100%
         display block
         height: .8rem;
         line-height: .8rem;
