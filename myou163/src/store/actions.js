@@ -40,5 +40,5 @@ export default {
       commit(RECEIVE_CATEGORY, [category]);
       typeof callback === 'function' && callback()
     }
-  },
+  }
 }

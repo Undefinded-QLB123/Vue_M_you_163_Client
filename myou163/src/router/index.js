@@ -20,6 +20,7 @@ import Features from "../pages/Msite/Features/Features";
 import ClassifyCateList from '../components/ClassifyCateList/ClassifyCateList'
 import ClassifyList from '../components/ClassifyList/ClassifyList'
 import Login from '../pages/Login/Login'
+import SearchPage from "../components/SearchPage/SearchPage";
 
 
 Vue.use(VueRouter);
@@ -33,7 +34,7 @@ const router = new VueRouter({
       children: [
         {
           path: '/msite/recommend',
-          component: Recommend
+          component: Recommend,
         },
         {
           path: '/msite/home',
@@ -149,11 +150,11 @@ const router = new VueRouter({
     },
     {
       path: '/distinguish',
-      component: Distinguish
+      component: Distinguish,
     },
     {
       path: '/shoppingcart',
-      component: ShoppingCart
+      component: ShoppingCart,
     },
     {
       path: '/profile',
@@ -162,6 +163,16 @@ const router = new VueRouter({
     {
       path: '/login',
       component: Login,
+      meta: {
+        isShow: true     //显示底部导航
+      },
+    },
+    {
+      path: '/search',
+      component: SearchPage,
+      meta: {
+        isShow: true     //显示底部导航
+      },
     },
     {
       path: '/',

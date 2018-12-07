@@ -1,13 +1,19 @@
 <template>
-    <div>Distinguish</div>
+  <div>
+    <top-bar></top-bar>
+  </div>
 </template>
 
 <script>
+  import TopBar from '../../components/TopBar/TopBar'
   export default {
-    name: "Distinguish"
+    name: "Distinguish",
+    components:{
+      TopBar
+    }
   }
 </script>
 
-<style scoped>
+<style scoped lang="stylus">
 
 </style>

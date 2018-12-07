@@ -70,5 +70,7 @@ export default {
   kingKongModule:[],
   category:[],
   cartGoods:[],
-  user:[]
+  user:[],
+  tagsHot: ['家居服特惠', '浪漫礼物2件85折', '衬衫T恤买3免1', '餐厨满199减20', '枕头', '软木拖', '四件套', '收纳'],
+  tagsHistory:[]
 }

@@ -4,10 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store'
-import {Button} from 'mint-ui'
+import {Button,Search} from 'mint-ui'
 import './mock/mockServer'
+import './assets/iconfont.css'
 
 Vue.component(Button.name, Button);
+Vue.component(Search.name, Search);
 Vue.config.productionTip = false;
 //将store保存在Vue上
 Vue.store = store
